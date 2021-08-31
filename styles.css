@@ -1,0 +1,245 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: white;
+}
+
+h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 100px;
+}
+
+/* ---------------------------------------header------------------------------------- */
+
+header {
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 200px 15px;
+}
+
+.logo {
+  display: block;
+  justify-content: flex-start;
+  align-self: center;
+  width: 200px;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 700px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 2px;
+  width: 600px;
+  color: hsl(273, 4%, 51%);
+  font-size: 16px;
+}
+
+.viewbtn {
+  color: black;
+  border: 2px solid black;
+  padding: 5px 10px;
+}
+
+/* ---------------------------------------intro------------------------------------- */
+
+.intro {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  height: 700px;
+  overflow: hidden;
+}
+
+.intro_images {
+  float: right;
+  margin-top: 250px;
+  overflow: hidden;
+}
+
+.intro_pattern {
+  float: right;
+  position: relative;
+  margin: -90px 0 0 0;
+}
+
+img.pattern {
+  width: 525px;
+  height: auto;
+}
+
+.intro_pic {
+  margin: 120px 0 80px 0;
+  padding-top: 20px;
+  display: flex;
+  z-index: -1;
+}
+
+img.fampic {
+  width: auto;
+  height: 750px;
+}
+.intro_content {
+  margin: 100px 20px 50px 190px;
+  overflow: hidden;
+  width: 1100px;
+  padding-bottom: 80px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid white;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+.intro_btn {
+  color: white;
+  border: 2px solid white;
+  padding: 5px 10px;
+  width: max-content;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+/* ---------------------------------------differents------------------------------------- */
+.different_list {
+  margin: 200px;
+}
+
+.left_pattern_container {
+  float: left;
+  position: relative;
+  margin: -90px 0 0 0;
+}
+
+img.left_pattern {
+  margin-top: -150px;
+}
+
+.line_different {
+  border-top: 2px solid hsl(273, 4%, 51%);
+}
+
+.different {
+  display: flex;
+  justify-content: space-around;
+  width: 1500px;
+  margin: 50px 0;
+}
+
+.different_content {
+  align-self: left;
+  padding-right: 20px;
+}
+h3 {
+  font-family: "DM Serif Display", serif;
+  padding: 40px 0 20px;
+}
+
+.different_content p {
+  color: hsl(273, 4%, 51%);
+}
+
+/* ---------------------------------------banner------------------------------------- */
+.banner_container {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  background-color: hsl(270, 9%, 17%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 1500px;
+  height: AUTO;
+  padding: 50px;
+  align-items: center;
+  background-image: url(images/bg-pattern-intro-right-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 1100px -120px;
+}
+
+h4 {
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+  margin: 0;
+}
+
+.banner p {
+  border: 2px solid white;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 2px 30px;
+  margin-right: 50px;
+}
+
+/* ---------------------------------------footer------------------------------------- */
+.footer {
+  background-color: hsl(0, 0%, 98%);
+  background-image: url(images/bg-pattern-footer-desktop.svg);
+  background-repeat: no-repeat;
+  margin-top: 200px;
+  padding: 20px 200px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.social_logo {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.footer_container {
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.footer_items {
+  display: block;
+  padding-right: 250px;
+  font-size: 14px;
+  align-items: flex-start;
+}
+
+h5 {
+  color: hsl(273, 4%, 51%);
+  padding-bottom: 10px;
+}
+
+.footer_list {
+  display: block;
+  width: 100%;
+  padding: 0;
+  line-height: 2;
+  color: black;
+}
+
+/* ---------------------------------------media------------------------------------- */
